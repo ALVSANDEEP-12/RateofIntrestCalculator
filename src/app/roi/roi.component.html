@@ -1,0 +1,17 @@
+    <div style="text-align: center;">
+        <marquee width="60%" direction="right" height="100px">
+    <h1 style="color: darksalmon;">Simple Rate Of Intrest Calculator</h1>
+</marquee><br/>
+    Principal: <input type="text" #p> <br/>
+    <br/>
+    Time:      <input type="text" #t><br/>
+    <br/>
+    ROI:       <input type="text" #r><br/>
+    <br/>
+    Total:     <input type="text" value="{{total}}"><br/>
+    <br/>
+    EMI:       <input type="text" value="{{emi}}"><br/>
+    <br/>
+    <input type="submit" value="CALCULATE" (click)="cal(p.value,t.value,r.value)">
+     <br>
+    </div>
